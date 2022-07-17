@@ -21,6 +21,8 @@
 
 main {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 #evaluation-form {
@@ -31,6 +33,7 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+  order: -1;
 }
 
 #familia {
@@ -77,3 +80,4 @@ footer {
 form {
   margin: 2em;
 }
+

@@ -1,13 +1,12 @@
-// const email = document.getElementById('email');
-// const senha = document.getElementById('password');
-// const botaoEntrar = document.getElementById('entrar');
-// const checkAceito = document
+const email = document.getElementById('email');
+const senha = document.getElementById('password');
+const botaoLogin = document.getElementById('entrar');
 
-// function validacao() {
-//   if (email.value === 'tryber@teste.com' && senha.value === '123456') {
-//     alert('Olá Tryber');
-//   } else {
-//     alert('Email ou senha inválidos.');
-//   }
-// }
-// botaoEntrar.addEventListener('click', validacao);
+botaoLogin.addEventListener('click', (event) => {
+  event.preventDefault();
+  if (email.value === 'tryber@teste.com' && senha.value === '123456') {
+    alert('Olá, Tryber!');
+  } else {
+    alert('Email ou senha inválidos.');
+  }
+});
