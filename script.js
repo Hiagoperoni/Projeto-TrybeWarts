@@ -16,5 +16,7 @@ botaoLogin.addEventListener('click', (event) => {
 checkInfo.addEventListener('click', () => {
   if (checkInfo.checked === true) {
     botaoSubmit.removeAttribute('disabled');
+  } else {
+    botaoSubmit.setAttribute('disabled', true);
   }
 });
