@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.login {
+.trybewarts-login {
   display: flex;
   width: 30em;
   justify-content: space-between;
@@ -25,7 +25,7 @@ main {
   justify-content: flex-end;
 }
 
-#evaluation-form {
+form#evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
