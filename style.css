@@ -25,7 +25,7 @@ main {
   justify-content: flex-end;
 }
 
-form#evaluation-form {
+#evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
