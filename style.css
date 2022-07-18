@@ -81,3 +81,6 @@ form {
   margin: 2em;
 }
 
+#form-data {
+  display: none;
+}
